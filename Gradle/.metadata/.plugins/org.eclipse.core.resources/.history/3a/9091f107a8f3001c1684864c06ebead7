@@ -1,0 +1,10 @@
+package com.smartek.groovydemo
+
+//List
+
+l = [1,,2,3,4,5]
+
+println l 
+println l.class // Default Array list
+
+l +=[6,7,8]

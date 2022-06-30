@@ -1,0 +1,14 @@
+package com.smartek.groovydemo
+
+//int add(int a, int b) {
+//	return a+b
+//}
+
+//def add(a,b) {
+//	a+b
+//}
+
+int add(a=5, b)
+
+result = add 4
+println result

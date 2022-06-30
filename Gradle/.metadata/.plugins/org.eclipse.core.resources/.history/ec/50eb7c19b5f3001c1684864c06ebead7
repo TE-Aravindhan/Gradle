@@ -1,0 +1,4 @@
+package com.smartek.groovydemo
+
+class Student {
+}

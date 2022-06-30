@@ -1,0 +1,23 @@
+package com.smartek.groovydemo
+
+//List
+
+l = [1,,2,3,4,5]
+
+println l 
+println l.class // Default Array list
+
+l +=[6,7,8]
+println l
+
+l << 9
+println l
+
+l -=[4,6]
+println l
+
+l.each { print it }
+
+println 
+
+l.reverseEach { print it }

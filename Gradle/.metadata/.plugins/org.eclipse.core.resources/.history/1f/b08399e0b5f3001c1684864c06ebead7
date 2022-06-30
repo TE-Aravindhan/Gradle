@@ -1,0 +1,20 @@
+package com.smartek.groovydemo
+
+class Students {
+	
+	def name, id, standard
+	
+	void set(id) {
+		
+		if(id!=null) {
+			this.id = id
+		}
+		throw new IllegalArgumentException("Id can not be null")
+	}
+	
+}
+
+
+s = new Students(name:'aravind',id:10, standard:12)
+
+println s.name +" "+ s.id+" "+s.standard

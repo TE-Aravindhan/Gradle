@@ -1,0 +1,12 @@
+package com.smartek.groovydemo
+
+//List
+
+l = [1,,2,3,4,5]
+
+println l 
+println l.class // Default Array list
+
+//LinkedList l1 = [1,2,3]
+//
+//println l1.class

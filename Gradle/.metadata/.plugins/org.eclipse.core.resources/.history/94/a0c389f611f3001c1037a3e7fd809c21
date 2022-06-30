@@ -1,0 +1,5 @@
+package com.smartek.groovydemo
+
+def a = 20
+
+print a

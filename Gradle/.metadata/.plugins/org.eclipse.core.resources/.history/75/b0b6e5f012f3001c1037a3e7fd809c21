@@ -1,0 +1,11 @@
+package com.smartek.groovydemo
+
+def a = 20 //Not recommended
+
+println a.class
+print a
+
+float b = 10.52F
+
+println b
+println b.getClass()

@@ -1,0 +1,12 @@
+package com.smartek.groovydemo
+
+class Students {
+	
+	def name, id, standard
+	
+}
+
+
+s = new Students(name:'aravind', id:10, standard:12)
+
+println s.name +" "+ s.id+" "+s.standard
